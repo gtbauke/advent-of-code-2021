@@ -41,6 +41,7 @@
   },
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "lint": "eslint \"src/**/*.+{ts|js|tsx|jsx}\"",
     "format": "prettier \"src/**/*.+{ts|js|tsx|jsx}\" --write"
   },
